@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Display</title>
+    <style>
+        #heart {
+            display: none;
+            color: red;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<button onclick="displayHeart()">Hiện Trái Tim</button>
+<div id="heart" class="heart-10x">❤️</div>
+
+<script>
+    function displayHeart() {
+        var heart = document.getElementById("heart");
+        heart.style.display = "block";
+    }
+</script>
+
+</body>
+</html>
